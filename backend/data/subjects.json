@@ -1,0 +1,62 @@
+[
+  {
+    "id": "java",
+    "name": "Java Programming",
+    "category": "Languages",
+    "iconName": "Code2",
+    "knowledge": 82,
+    "retention": 88,
+    "topicCount": 2,
+    "completedTopics": 1,
+    "riskLevel": "Low",
+    "lastStudied": "1 day ago",
+    "description": "Core Java concepts, Collections framework, OOP principles, and Stream API.",
+    "color": "#14B8A6",
+    "_id": "java"
+  },
+  {
+    "id": "sql",
+    "name": "SQL & Databases",
+    "category": "Databases",
+    "iconName": "Database",
+    "knowledge": 76,
+    "retention": 79,
+    "topicCount": 1,
+    "completedTopics": 1,
+    "riskLevel": "Medium",
+    "lastStudied": "Yesterday",
+    "description": "Relational database queries, JOINs, indexing, normalization, and aggregation.",
+    "color": "#38BDF8",
+    "_id": "sql"
+  },
+  {
+    "id": "ds",
+    "name": "Data Structures",
+    "category": "Computer Science",
+    "iconName": "Binary",
+    "knowledge": 64,
+    "retention": 71,
+    "topicCount": 2,
+    "completedTopics": 1,
+    "riskLevel": "High",
+    "lastStudied": "3 days ago",
+    "description": "Arrays, HashMaps, Linked Lists, Trees, Graphs, and Algorithmic Complexity.",
+    "color": "#F59E0B",
+    "_id": "ds"
+  },
+  {
+    "id": "springboot",
+    "name": "Spring Boot & Microservices",
+    "category": "Backend",
+    "iconName": "Server",
+    "knowledge": 51,
+    "retention": 62,
+    "topicCount": 1,
+    "completedTopics": 0,
+    "riskLevel": "Critical",
+    "lastStudied": "8 days ago",
+    "description": "Spring Core, Dependency Injection, REST APIs, Spring Security, and JPA/Hibernate.",
+    "color": "#EF4444",
+    "_id": "springboot"
+  }
+]

@@ -1,0 +1,136 @@
+[
+  {
+    "_id": "e6f4e1fe-2cfa-4dff-a4bf-09268e9d651d",
+    "userId": "645309ad-bab2-48db-a841-c339f5da2e35",
+    "title": "Completed HashMap Internal Mechanics Quiz",
+    "subtitle": "Score: 100% (+22% knowledge recovery)",
+    "timestamp": "Just now",
+    "type": "quiz",
+    "iconName": "CheckCircle2",
+    "createdAt": "2026-10-19T12:01:38.722199+00:00"
+  },
+  {
+    "_id": "1cd59a58-8112-4883-b969-221c9f15cda6",
+    "id": "act-init",
+    "userId": "ebd25bf1-1363-4db3-a6e7-babe6eef3cef",
+    "title": "Enrolled in Technical Curriculum",
+    "subtitle": "Knowledge retention tracking active",
+    "timestamp": "Today",
+    "type": "alert",
+    "iconName": "Sparkles",
+    "createdAt": "2026-10-19T12:01:38.730111+00:00"
+  },
+  {
+    "_id": "313cadbd-f2da-4d88-a68e-311d90b1fb6a",
+    "userId": "cd79fd78-d7d8-4f54-b446-6280abe295d1",
+    "title": "Completed HashMap Internal Mechanics Quiz",
+    "subtitle": "Score: 100% (+22% knowledge recovery)",
+    "timestamp": "Just now",
+    "type": "quiz",
+    "iconName": "CheckCircle2",
+    "createdAt": "2026-10-19T12:02:23.625858+00:00"
+  },
+  {
+    "_id": "1bbc013b-0699-4e89-af41-5488013c6511",
+    "id": "act-init",
+    "userId": "f1e55ed1-53d9-4af5-83cb-d2b65786cb09",
+    "title": "Enrolled in Technical Curriculum",
+    "subtitle": "Knowledge retention tracking active",
+    "timestamp": "Today",
+    "type": "alert",
+    "iconName": "Sparkles",
+    "createdAt": "2026-10-19T12:02:23.666793+00:00"
+  },
+  {
+    "_id": "685aa850-817e-4a3c-98e7-529b7c727658",
+    "userId": "e9f6a5a4-274e-4748-8807-026c3b537319",
+    "title": "Completed HashMap Internal Mechanics Quiz",
+    "subtitle": "Score: 80% (+13% knowledge recovery)",
+    "timestamp": "Just now",
+    "type": "quiz",
+    "iconName": "CheckCircle2",
+    "createdAt": "2026-10-19T12:02:23.922217+00:00"
+  },
+  {
+    "_id": "5a09c535-98cf-4b4c-9354-49ce1ffbe393",
+    "userId": "e9f6a5a4-274e-4748-8807-026c3b537319",
+    "title": "Completed Revision: HashMap Internal Mechanics",
+    "subtitle": "Spent 20 mins revising concepts (+14% knowledge boosted)",
+    "timestamp": "Just now",
+    "type": "revision",
+    "iconName": "BookOpen",
+    "createdAt": "2026-10-19T12:02:23.930602+00:00"
+  },
+  {
+    "_id": "b3859f11-19d7-47ab-8afa-49d51cdbb801",
+    "userId": "65221ad6-8c84-4393-ad38-c852833caad1",
+    "title": "Completed HashMap Internal Mechanics Quiz",
+    "subtitle": "Score: 100% (+22% knowledge recovery)",
+    "timestamp": "Just now",
+    "type": "quiz",
+    "iconName": "CheckCircle2",
+    "createdAt": "2026-10-19T12:03:10.313158+00:00"
+  },
+  {
+    "_id": "cce848a2-f33a-42c7-a529-09e586e627b4",
+    "id": "act-init",
+    "userId": "6dd9b543-9bb3-4d67-80df-e8dffc65a736",
+    "title": "Enrolled in Technical Curriculum",
+    "subtitle": "Knowledge retention tracking active",
+    "timestamp": "Today",
+    "type": "alert",
+    "iconName": "Sparkles",
+    "createdAt": "2026-10-19T12:03:10.321603+00:00"
+  },
+  {
+    "_id": "913e3aa3-6053-44f6-93a6-c0167ccf61bd",
+    "userId": "a90f76da-27d0-42b1-a56b-5a98fa66e712",
+    "title": "Completed HashMap Internal Mechanics Quiz",
+    "subtitle": "Score: 80% (+13% knowledge recovery)",
+    "timestamp": "Just now",
+    "type": "quiz",
+    "iconName": "CheckCircle2",
+    "createdAt": "2026-10-19T12:03:10.584388+00:00"
+  },
+  {
+    "_id": "5009eb5d-36e9-4367-8aa7-cb6f2a98f853",
+    "userId": "a90f76da-27d0-42b1-a56b-5a98fa66e712",
+    "title": "Completed Revision: HashMap Internal Mechanics",
+    "subtitle": "Spent 20 mins revising concepts (+14% knowledge boosted)",
+    "timestamp": "Just now",
+    "type": "revision",
+    "iconName": "BookOpen",
+    "createdAt": "2026-10-19T12:03:10.594086+00:00"
+  },
+  {
+    "_id": "a95012ca-b942-4359-8122-2edfb45cb0d8",
+    "userId": "a244ff63-9fe5-4e04-a5cc-5badf721cee6",
+    "title": "Completed HashMap Internal Mechanics Quiz",
+    "subtitle": "Score: 100% (+22% knowledge recovery)",
+    "timestamp": "Just now",
+    "type": "quiz",
+    "iconName": "CheckCircle2",
+    "createdAt": "2026-10-19T12:16:05.331294+00:00"
+  },
+  {
+    "_id": "2c7b9f6c-a9a8-4174-a686-afd048c99849",
+    "userId": "a244ff63-9fe5-4e04-a5cc-5badf721cee6",
+    "title": "Completed Revision: HashMap Internal Mechanics",
+    "subtitle": "Spent 20 mins revising concepts (+14% knowledge boosted)",
+    "timestamp": "Just now",
+    "type": "revision",
+    "iconName": "BookOpen",
+    "createdAt": "2026-10-19T12:16:05.342888+00:00"
+  },
+  {
+    "_id": "edb6060f-15c2-4aa0-8cd1-75c11aa8bace",
+    "id": "act-init",
+    "userId": "6c70621e-3a29-4a1f-a349-6c06e40f7e92",
+    "title": "Enrolled in Technical Curriculum",
+    "subtitle": "Knowledge retention tracking active",
+    "timestamp": "Today",
+    "type": "alert",
+    "iconName": "Sparkles",
+    "createdAt": "2026-10-19T12:16:05.585104+00:00"
+  }
+]

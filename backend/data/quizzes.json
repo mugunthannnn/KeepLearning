@@ -1,0 +1,218 @@
+[
+  {
+    "topicId": "hashmap",
+    "topicName": "HashMap Internal Mechanics",
+    "subjectName": "Data Structures",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What is the default initial capacity of a Java HashMap if not specified in the constructor?",
+        "options": [
+          "8",
+          "16",
+          "32",
+          "64"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Java HashMap defaults to an initial capacity of 16 (which is 1 << 4), and a load factor of 0.75."
+      },
+      {
+        "id": "q2",
+        "question": "Starting from Java 8, when does a bucket in HashMap convert from a LinkedList to a Red-Black Tree?",
+        "options": [
+          "When the total HashMap size exceeds 100 entries",
+          "When a bucket contains 4 nodes",
+          "When a bucket contains 8 nodes AND total table capacity is at least 64",
+          "Whenever a collision occurs"
+        ],
+        "correctAnswer": 2,
+        "explanation": "TREEIFY_THRESHOLD is 8. When 8 elements collide in the same bucket and capacity >= 64, it treeifies to balance search complexity to O(log n)."
+      },
+      {
+        "id": "q3",
+        "question": "How is the bucket index calculated in HashMap for a given key?",
+        "options": [
+          "index = key.hashCode() % capacity",
+          "index = (capacity - 1) & hash",
+          "index = key.hashCode() * capacity",
+          "index = hash / capacity"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Because capacity is always a power of 2, bitwise AND (capacity - 1) & hash is equivalent to modulo, but much faster."
+      },
+      {
+        "id": "q4",
+        "question": "What happens when a HashMap size exceeds capacity * loadFactor?",
+        "options": [
+          "An OutOfMemoryException is immediately thrown",
+          "New put operations are rejected",
+          "The table capacity doubles and all elements are rehashed into new buckets",
+          "The load factor decreases automatically"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Rehashing occurs: a new table with 2x capacity is allocated and nodes are redistributed."
+      },
+      {
+        "id": "q5",
+        "question": "Why should mutable objects be avoided as HashMap keys?",
+        "options": [
+          "They consume double memory",
+          "Modifying an object's fields changes its hashCode, making it unretrievable from its original bucket",
+          "HashMap throws a ConcurrentModificationException",
+          "Mutable keys disable Red-Black tree conversion"
+        ],
+        "correctAnswer": 1,
+        "explanation": "If a key's fields mutate after insertion, its computed bucket index changes, causing get() calls to look in the wrong bucket."
+      }
+    ],
+    "_id": "hashmap"
+  },
+  {
+    "topicId": "sql-joins",
+    "topicName": "SQL JOIN Operations",
+    "subjectName": "SQL & Databases",
+    "questions": [
+      {
+        "id": "sq1",
+        "question": "Which JOIN returns all rows from the left table and matching rows from the right table, filling NULLs for non-matches?",
+        "options": [
+          "INNER JOIN",
+          "RIGHT JOIN",
+          "LEFT (OUTER) JOIN",
+          "CROSS JOIN"
+        ],
+        "correctAnswer": 2,
+        "explanation": "LEFT OUTER JOIN preserves all left-table rows regardless of whether a match exists on the right table."
+      },
+      {
+        "id": "sq2",
+        "question": "What is the Cartesian product result of CROSS JOINing Table A (10 rows) and Table B (5 rows)?",
+        "options": [
+          "15 rows",
+          "50 rows",
+          "5 rows",
+          "10 rows"
+        ],
+        "correctAnswer": 1,
+        "explanation": "A CROSS JOIN multiplies rows from Table A by Table B: 10 * 5 = 50 rows."
+      },
+      {
+        "id": "sq3",
+        "question": "How do you emulate FULL OUTER JOIN in databases like MySQL that do not natively support it?",
+        "options": [
+          "Combine LEFT JOIN and RIGHT JOIN using UNION",
+          "Use CROSS JOIN with WHERE NOT NULL",
+          "Use INNER JOIN with HAVING count(*) > 1",
+          "FULL OUTER JOIN is natively built into all MySQL versions"
+        ],
+        "correctAnswer": 0,
+        "explanation": "UNION combines the result of LEFT JOIN and RIGHT JOIN while deduplicating exact row matches."
+      }
+    ],
+    "_id": "sql-joins"
+  },
+  {
+    "topicId": "spring-security",
+    "topicName": "Spring Security & JWT Authentication",
+    "subjectName": "Spring Boot & Microservices",
+    "questions": [
+      {
+        "id": "sec1",
+        "question": "Which class should custom JWT filters extend to ensure single execution per HTTP request in Spring Security?",
+        "options": [
+          "GenericFilterBean",
+          "OncePerRequestFilter",
+          "AuthenticationFilter",
+          "HttpServletFilter"
+        ],
+        "correctAnswer": 1,
+        "explanation": "OncePerRequestFilter guarantees the filter logic executes exactly once per dispatch request."
+      },
+      {
+        "id": "sec2",
+        "question": "Where is the authenticated user Authentication object stored during a web request in Spring Security?",
+        "options": [
+          "HttpSession attributes only",
+          "SecurityContextHolder.getContext().getAuthentication()",
+          "Database session cache",
+          "Spring ApplicationContext"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Thread-local SecurityContextHolder stores the active Authentication token for the current thread."
+      }
+    ],
+    "_id": "spring-security"
+  },
+  {
+    "topicId": "arraylist",
+    "topicName": "ArrayList & Dynamic Resizing",
+    "subjectName": "Java Programming",
+    "questions": [
+      {
+        "id": "al1",
+        "question": "What is the resizing factor in Java 8+ ArrayList when the internal capacity is exceeded?",
+        "options": [
+          "Double (2.0x)",
+          "50% increase (1.5x)",
+          "10 elements added",
+          "Tripled (3.0x)"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Java ArrayList grows by oldCapacity + (oldCapacity >> 1), which is approximately a 1.5x increase."
+      },
+      {
+        "id": "al2",
+        "question": "Why does ArrayList throw ConcurrentModificationException during iteration?",
+        "options": [
+          "Because elements are null",
+          "Due to structural modification detected via modCount check in fail-fast iterator",
+          "Because of memory overflow",
+          "Because it is synchronized"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Iterators compare expectedModCount with modCount. Structural changes during iteration violate this check."
+      }
+    ],
+    "_id": "arraylist"
+  },
+  {
+    "topicId": "java-streams",
+    "topicName": "Java 8+ Streams API & Collectors",
+    "subjectName": "Java Programming",
+    "questions": [
+      {
+        "id": "st1",
+        "question": "Which of the following is a terminal operation in Java Streams?",
+        "options": [
+          "filter()",
+          "map()",
+          "collect()",
+          "peek()"
+        ],
+        "correctAnswer": 2,
+        "explanation": "collect() triggers pipeline execution and consumes the stream, making it a terminal operation."
+      }
+    ],
+    "_id": "java-streams"
+  },
+  {
+    "topicId": "binary-trees",
+    "topicName": "Binary Search Tree Traversals & Balancing",
+    "subjectName": "Data Structures",
+    "questions": [
+      {
+        "id": "bt1",
+        "question": "Which depth-first traversal of a Binary Search Tree produces values in strictly sorted ascending order?",
+        "options": [
+          "Pre-order (Root, Left, Right)",
+          "In-order (Left, Root, Right)",
+          "Post-order (Left, Right, Root)",
+          "Level-order (BFS)"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In-order traversal visits Left subtree, then Root, then Right subtree, producing sorted output for a BST."
+      }
+    ],
+    "_id": "binary-trees"
+  }
+]

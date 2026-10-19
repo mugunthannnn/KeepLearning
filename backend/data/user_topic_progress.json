@@ -1,0 +1,176 @@
+[
+  {
+    "userId": "645309ad-bab2-48db-a841-c339f5da2e35",
+    "topicId": "hashmap",
+    "knowledge": 86,
+    "accuracy": 85,
+    "repetitionCount": 1,
+    "lastPracticed": "Just now",
+    "lastPracticedDaysAgo": 0,
+    "driftProbability": 36,
+    "stability": "Medium",
+    "riskLevel": "Low",
+    "concepts": [],
+    "updatedAt": "2026-10-19T12:01:38.720833+00:00",
+    "_id": "a81aa9bd-2d3e-4664-a9b5-e39605d6c257"
+  },
+  {
+    "userId": "cd79fd78-d7d8-4f54-b446-6280abe295d1",
+    "topicId": "hashmap",
+    "knowledge": 86,
+    "accuracy": 85,
+    "repetitionCount": 1,
+    "lastPracticed": "Just now",
+    "lastPracticedDaysAgo": 0,
+    "driftProbability": 33,
+    "stability": "Medium",
+    "riskLevel": "Low",
+    "concepts": [],
+    "updatedAt": "2026-10-19T12:02:23.623930+00:00",
+    "_id": "33aca864-d8f0-4817-8ce2-21c4074b698a"
+  },
+  {
+    "userId": "e9f6a5a4-274e-4748-8807-026c3b537319",
+    "topicId": "hashmap",
+    "knowledge": 91,
+    "accuracy": 75,
+    "repetitionCount": 1,
+    "lastPracticed": "Just now",
+    "lastPracticedDaysAgo": 0,
+    "driftProbability": 29,
+    "stability": "Medium",
+    "riskLevel": "Low",
+    "concepts": [
+      {
+        "name": "Hashing & Bucket Indexing",
+        "score": 96,
+        "status": "Strong"
+      },
+      {
+        "name": "Collision Handling (Chaining)",
+        "score": 66,
+        "status": "Stable"
+      },
+      {
+        "name": "HashMap Methods (put/get)",
+        "score": 61,
+        "status": "Needs Review"
+      },
+      {
+        "name": "Treeify Threshold & Rehashing",
+        "score": 56,
+        "status": "Needs Review"
+      }
+    ],
+    "updatedAt": "2026-10-19T12:02:23.921165+00:00",
+    "_id": "ae0fdda8-752d-4a61-ac3b-14ee67815a2b"
+  },
+  {
+    "userId": "65221ad6-8c84-4393-ad38-c852833caad1",
+    "topicId": "hashmap",
+    "knowledge": 86,
+    "accuracy": 85,
+    "repetitionCount": 1,
+    "lastPracticed": "Just now",
+    "lastPracticedDaysAgo": 0,
+    "driftProbability": 41,
+    "stability": "Medium",
+    "riskLevel": "Medium",
+    "concepts": [
+      {
+        "name": "Hashing & Bucket Indexing",
+        "score": 100,
+        "status": "Strong"
+      },
+      {
+        "name": "Collision Handling (Chaining)",
+        "score": 71,
+        "status": "Stable"
+      },
+      {
+        "name": "HashMap Methods (put/get)",
+        "score": 66,
+        "status": "Stable"
+      },
+      {
+        "name": "Treeify Threshold & Rehashing",
+        "score": 61,
+        "status": "Needs Review"
+      }
+    ],
+    "updatedAt": "2026-10-19T12:03:10.310660+00:00",
+    "_id": "896eb153-37bb-42ab-9e9f-4ae8d0608ceb"
+  },
+  {
+    "userId": "a90f76da-27d0-42b1-a56b-5a98fa66e712",
+    "topicId": "hashmap",
+    "knowledge": 91,
+    "accuracy": 75,
+    "repetitionCount": 1,
+    "lastPracticed": "Just now",
+    "lastPracticedDaysAgo": 0,
+    "driftProbability": 37,
+    "stability": "Medium",
+    "riskLevel": "Low",
+    "concepts": [
+      {
+        "name": "Hashing & Bucket Indexing",
+        "score": 96,
+        "status": "Strong"
+      },
+      {
+        "name": "Collision Handling (Chaining)",
+        "score": 66,
+        "status": "Stable"
+      },
+      {
+        "name": "HashMap Methods (put/get)",
+        "score": 61,
+        "status": "Needs Review"
+      },
+      {
+        "name": "Treeify Threshold & Rehashing",
+        "score": 56,
+        "status": "Needs Review"
+      }
+    ],
+    "updatedAt": "2026-10-19T12:03:10.582918+00:00",
+    "_id": "6787074b-61b3-49f0-8921-6d15a4c2ae74"
+  },
+  {
+    "userId": "a244ff63-9fe5-4e04-a5cc-5badf721cee6",
+    "topicId": "hashmap",
+    "knowledge": 100,
+    "accuracy": 85,
+    "repetitionCount": 1,
+    "lastPracticed": "Just now",
+    "lastPracticedDaysAgo": 0,
+    "driftProbability": 34,
+    "stability": "Medium",
+    "riskLevel": "Low",
+    "concepts": [
+      {
+        "name": "Hashing & Bucket Indexing",
+        "score": 100,
+        "status": "Strong"
+      },
+      {
+        "name": "Collision Handling (Chaining)",
+        "score": 71,
+        "status": "Stable"
+      },
+      {
+        "name": "HashMap Methods (put/get)",
+        "score": 66,
+        "status": "Stable"
+      },
+      {
+        "name": "Treeify Threshold & Rehashing",
+        "score": 61,
+        "status": "Needs Review"
+      }
+    ],
+    "updatedAt": "2026-10-19T12:16:05.329163+00:00",
+    "_id": "cfed246c-397f-4786-88b5-8512c9db3c49"
+  }
+]
