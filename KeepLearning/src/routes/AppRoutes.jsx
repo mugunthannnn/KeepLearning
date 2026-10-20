@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { Landing } from '../pages/Landing';
@@ -28,7 +29,9 @@ const ProtectedLayout = () => {
         <div className="w-12 h-12 rounded-2xl bg-teal-500 text-[#0B1F33] flex items-center justify-center font-black animate-pulse mb-4">
           <Sparkles className="w-6 h-6 text-[#0B1F33]" />
         </div>
-        <p className="text-sm font-semibold text-slate-300">Loading your knowledge workspace...</p>
+        <p className="text-sm font-semibold text-slate-300">
+          Loading your knowledge workspace...
+        </p>
       </div>
     );
   }
@@ -42,8 +45,10 @@ const ProtectedLayout = () => {
 
 const PublicOnlyRoute = ({ children }) => {
   const { user, loading } = useData();
+
   if (loading) return null;
   if (user) return <Navigate to="/dashboard" replace />;
+
   return children;
 };
 
@@ -52,6 +57,7 @@ export const AppRoutes = () => {
     <Routes>
       {/* Public Pages */}
       <Route path="/" element={<Landing />} />
+
       <Route
         path="/login"
         element={
@@ -60,6 +66,7 @@ export const AppRoutes = () => {
           </PublicOnlyRoute>
         }
       />
+
       <Route
         path="/register"
         element={
@@ -68,17 +75,30 @@ export const AppRoutes = () => {
           </PublicOnlyRoute>
         }
       />
+
       <Route path="/onboarding" element={<Onboarding />} />
 
       {/* Authenticated Application Shell */}
       <Route element={<ProtectedLayout />}>
         <Route path="/dashboard" element={<Dashboard />} />
+
+        {/* Existing topic learning page remains available */}
         <Route path="/learning" element={<Learning />} />
+
         <Route path="/learning/:subjectId" element={<SubjectDetails />} />
         <Route path="/topic/:topicId" element={<TopicDetails />} />
         <Route path="/learn/:topicId" element={<LearningSession />} />
         <Route path="/quiz/:topicId" element={<Quiz />} />
+
+        {/* Current quiz result */}
         <Route path="/quiz-result" element={<QuizResult />} />
+
+        {/* My Learning opens quiz history using the same component */}
+        <Route
+          path="/quiz-history"
+          element={<QuizResult historyOnly />}
+        />
+
         <Route path="/predictions" element={<Predictions />} />
         <Route path="/revision-plan" element={<RevisionPlan />} />
         <Route path="/analytics" element={<Analytics />} />

@@ -362,5 +362,57 @@
       "theme": "light"
     },
     "createdAt": "2026-10-19T12:16:05.581301+00:00"
+  },
+  {
+    "_id": "2e65e6d9-d2ed-47e3-b387-b27ae335a6d9",
+    "name": "Mugunthan",
+    "email": "mugunthan@keeplearning.io",
+    "passwordHash": "$2b$12$gmYPmLkDgU20v56rnVkTyOYp7SDqTx5VzxSzJtZprCp5FzP3nQlIu",
+    "role": "Computer Science Student",
+    "knowledgeScore": 0,
+    "retentionRate": 0,
+    "topicsAtRiskCount": 0,
+    "learningStreak": 0,
+    "onboarded": false,
+    "preferences": {
+      "dailyGoalMinutes": 30,
+      "experienceLevel": "Intermediate",
+      "goal": "Interview preparation & Skill Mastery",
+      "preferredSubjects": [
+        "Java",
+        "SQL"
+      ],
+      "emailAlerts": true,
+      "driftAlerts": true,
+      "weeklySummary": true,
+      "theme": "light"
+    },
+    "createdAt": "2026-10-20T14:43:17.383563+00:00"
+  },
+  {
+    "_id": "4f679fe9-efd6-481c-902d-2c1534affb25",
+    "name": "Alice",
+    "email": "alice@keeplearning.io",
+    "passwordHash": "$2b$12$KXecTrOI4Jc/Pknrce8DTu1eOR7MlnveEsJiLvmCiyVR8StCmZ0la",
+    "role": "Computer Science Student",
+    "knowledgeScore": 0,
+    "retentionRate": 0,
+    "topicsAtRiskCount": 0,
+    "learningStreak": 0,
+    "onboarded": false,
+    "preferences": {
+      "dailyGoalMinutes": 30,
+      "experienceLevel": "Intermediate",
+      "goal": "Interview preparation & Skill Mastery",
+      "preferredSubjects": [
+        "Java",
+        "SQL"
+      ],
+      "emailAlerts": true,
+      "driftAlerts": true,
+      "weeklySummary": true,
+      "theme": "light"
+    },
+    "createdAt": "2026-10-20T14:43:37.372647+00:00"
   }
 ]
