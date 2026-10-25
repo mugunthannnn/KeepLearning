@@ -124,5 +124,141 @@
       "q5": 1
     },
     "timestamp": "2026-10-19T12:16:05.330237+00:00"
+  },
+  {
+    "_id": "c4945ed6-b624-4282-b3a5-18cc13736557",
+    "userId": "2e65e6d9-d2ed-47e3-b387-b27ae335a6d9",
+    "topicId": "hashmap",
+    "topicName": "HashMap Internal Mechanics",
+    "subjectName": "Data Structures",
+    "score": 40,
+    "correctCount": 2,
+    "totalQuestions": 5,
+    "beforeKnowledge": 0,
+    "afterKnowledge": 0,
+    "knowledgeDiff": 0,
+    "answers": {
+      "q1": 2,
+      "q2": 1,
+      "q3": 0,
+      "q4": 2,
+      "q5": 1
+    },
+    "timestamp": "2026-10-21T16:58:54.157682+00:00"
+  },
+  {
+    "_id": "963f3609-5065-4e18-a750-18d1b4214c80",
+    "userId": "2e65e6d9-d2ed-47e3-b387-b27ae335a6d9",
+    "topicId": "arraylist",
+    "topicName": "ArrayList & Dynamic Resizing",
+    "subjectName": "Java Programming",
+    "score": 100,
+    "correctCount": 2,
+    "totalQuestions": 2,
+    "beforeKnowledge": 0,
+    "afterKnowledge": 51,
+    "knowledgeDiff": 51,
+    "answers": {
+      "al1": 1,
+      "al2": 1
+    },
+    "timestamp": "2026-10-21T17:57:31.824119+00:00"
+  },
+  {
+    "_id": "129325c0-1817-4b74-bf8d-2b80610800de",
+    "userId": "2e65e6d9-d2ed-47e3-b387-b27ae335a6d9",
+    "topicId": "arraylist",
+    "topicName": "ArrayList & Dynamic Resizing",
+    "subjectName": "Java Programming",
+    "score": 0,
+    "correctCount": 0,
+    "totalQuestions": 2,
+    "beforeKnowledge": 51,
+    "afterKnowledge": 51,
+    "knowledgeDiff": 0,
+    "answers": {
+      "al1": 0,
+      "al2": 2
+    },
+    "timestamp": "2026-10-21T17:57:45.315919+00:00"
+  },
+  {
+    "_id": "918c064b-dd3e-4729-8afd-1dd4071d50d5",
+    "userId": "2e65e6d9-d2ed-47e3-b387-b27ae335a6d9",
+    "topicId": "arraylist",
+    "topicName": "ArrayList & Dynamic Resizing",
+    "subjectName": "Java Programming",
+    "score": 100,
+    "correctCount": 2,
+    "totalQuestions": 2,
+    "beforeKnowledge": 51,
+    "afterKnowledge": 79,
+    "knowledgeDiff": 28,
+    "answers": {
+      "al1": 1,
+      "al2": 1
+    },
+    "timestamp": "2026-10-21T17:57:57.233539+00:00"
+  },
+  {
+    "_id": "0c80859f-48cc-46ec-8d08-5bd891455c37",
+    "userId": "2e65e6d9-d2ed-47e3-b387-b27ae335a6d9",
+    "topicId": "hashmap",
+    "topicName": "HashMap Internal Mechanics",
+    "subjectName": "Data Structures",
+    "score": 40,
+    "correctCount": 2,
+    "totalQuestions": 5,
+    "beforeKnowledge": 0,
+    "afterKnowledge": 0,
+    "knowledgeDiff": 0,
+    "answers": {
+      "q1": 1,
+      "q2": 2,
+      "q3": 0,
+      "q4": 1,
+      "q5": 2
+    },
+    "timestamp": "2026-10-22T03:16:58.076427+00:00"
+  },
+  {
+    "_id": "76528bcd-b8a7-41c6-8daa-6d5c7f2551e0",
+    "userId": "2e65e6d9-d2ed-47e3-b387-b27ae335a6d9",
+    "topicId": "hashmap",
+    "topicName": "HashMap Internal Mechanics",
+    "subjectName": "Data Structures",
+    "score": 40,
+    "correctCount": 2,
+    "totalQuestions": 5,
+    "beforeKnowledge": 0,
+    "afterKnowledge": 0,
+    "knowledgeDiff": 0,
+    "answers": {
+      "q1": 2,
+      "q2": 2,
+      "q3": 2,
+      "q4": 3,
+      "q5": 1
+    },
+    "timestamp": "2026-10-22T06:36:20.377012+00:00"
+  },
+  {
+    "_id": "d5500c3f-20a8-4f5d-85b8-bb8bb6eda05a",
+    "userId": "2e65e6d9-d2ed-47e3-b387-b27ae335a6d9",
+    "topicId": "sql-joins",
+    "topicName": "SQL JOIN Operations",
+    "subjectName": "SQL & Databases",
+    "score": 100,
+    "correctCount": 3,
+    "totalQuestions": 3,
+    "beforeKnowledge": 0,
+    "afterKnowledge": 51,
+    "knowledgeDiff": 51,
+    "answers": {
+      "sq1": 2,
+      "sq2": 1,
+      "sq3": 0
+    },
+    "timestamp": "2026-10-23T20:04:05.957672+00:00"
   }
 ]

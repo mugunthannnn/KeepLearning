@@ -172,5 +172,108 @@
     ],
     "updatedAt": "2026-10-19T12:16:05.329163+00:00",
     "_id": "cfed246c-397f-4786-88b5-8512c9db3c49"
+  },
+  {
+    "userId": "2e65e6d9-d2ed-47e3-b387-b27ae335a6d9",
+    "topicId": "hashmap",
+    "knowledge": 0,
+    "accuracy": 40,
+    "repetitionCount": 3,
+    "lastPracticed": "Just now",
+    "lastPracticedDaysAgo": 0,
+    "driftProbability": 80,
+    "stability": "Medium",
+    "riskLevel": "Critical",
+    "concepts": [
+      {
+        "name": "Hashing & Bucket Indexing",
+        "score": 90,
+        "status": "Strong"
+      },
+      {
+        "name": "Collision Handling (Chaining)",
+        "score": 60,
+        "status": "Needs Review"
+      },
+      {
+        "name": "HashMap Methods (put/get)",
+        "score": 55,
+        "status": "Needs Review"
+      },
+      {
+        "name": "Treeify Threshold & Rehashing",
+        "score": 50,
+        "status": "Needs Review"
+      }
+    ],
+    "updatedAt": "2026-10-22T06:36:20.377012+00:00",
+    "_id": "7e980d6e-24b9-4a1d-814d-7ce7e5908180"
+  },
+  {
+    "userId": "2e65e6d9-d2ed-47e3-b387-b27ae335a6d9",
+    "topicId": "arraylist",
+    "knowledge": 100,
+    "accuracy": 67,
+    "repetitionCount": 5,
+    "lastPracticed": "Just now",
+    "lastPracticedDaysAgo": 0,
+    "driftProbability": 28,
+    "stability": "High",
+    "riskLevel": "Low",
+    "concepts": [
+      {
+        "name": "Dynamic Array Resizing",
+        "score": 100,
+        "status": "Strong"
+      },
+      {
+        "name": "Capacity vs Size",
+        "score": 100,
+        "status": "Strong"
+      },
+      {
+        "name": "Fail-Fast Iterators",
+        "score": 100,
+        "status": "Strong"
+      }
+    ],
+    "updatedAt": "2026-10-23T20:06:11.640927+00:00",
+    "_id": "798d7942-a6e0-4033-8439-bad6f1de5f48"
+  },
+  {
+    "userId": "2e65e6d9-d2ed-47e3-b387-b27ae335a6d9",
+    "topicId": "sql-joins",
+    "knowledge": 51,
+    "accuracy": 100,
+    "repetitionCount": 1,
+    "lastPracticed": "Just now",
+    "lastPracticedDaysAgo": 0,
+    "driftProbability": 55,
+    "stability": "Medium",
+    "riskLevel": "Critical",
+    "concepts": [
+      {
+        "name": "INNER JOIN syntax",
+        "score": 100,
+        "status": "Strong"
+      },
+      {
+        "name": "LEFT / RIGHT JOIN NULL handling",
+        "score": 100,
+        "status": "Strong"
+      },
+      {
+        "name": "FULL OUTER JOIN emulation",
+        "score": 100,
+        "status": "Strong"
+      },
+      {
+        "name": "Self JOINs",
+        "score": 100,
+        "status": "Strong"
+      }
+    ],
+    "updatedAt": "2026-10-23T20:04:05.957672+00:00",
+    "_id": "43339996-732e-4809-8fbf-2c9469c94c67"
   }
 ]

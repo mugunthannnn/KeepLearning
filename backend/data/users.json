@@ -369,9 +369,9 @@
     "email": "mugunthan@keeplearning.io",
     "passwordHash": "$2b$12$gmYPmLkDgU20v56rnVkTyOYp7SDqTx5VzxSzJtZprCp5FzP3nQlIu",
     "role": "Computer Science Student",
-    "knowledgeScore": 0,
-    "retentionRate": 0,
-    "topicsAtRiskCount": 0,
+    "knowledgeScore": 43,
+    "retentionRate": 69,
+    "topicsAtRiskCount": 2,
     "learningStreak": 0,
     "onboarded": false,
     "preferences": {
@@ -414,5 +414,33 @@
       "theme": "light"
     },
     "createdAt": "2026-10-20T14:43:37.372647+00:00"
+  },
+  {
+    "_id": "1064aa7a-83e7-47c6-a1c2-1c6705620a01",
+    "name": "Hari",
+    "email": "mt.mugunthan@gmail.com",
+    "passwordHash": "$2b$12$nl0XZUHTRVW4JVoLym667ugjGoVuydEXQmAAV6wd5UCzGU8F9i/qq",
+    "role": "Computer Science Student",
+    "knowledgeScore": 0,
+    "retentionRate": 0,
+    "topicsAtRiskCount": 0,
+    "learningStreak": 0,
+    "onboarded": true,
+    "preferences": {
+      "dailyGoalMinutes": 30,
+      "experienceLevel": "Intermediate",
+      "goal": "Long-Term Professional Skill Retention",
+      "preferredSubjects": [
+        "Java",
+        "Data Structures",
+        "SQL",
+        "Spring Boot"
+      ],
+      "emailAlerts": true,
+      "driftAlerts": true,
+      "weeklySummary": true,
+      "theme": "light"
+    },
+    "createdAt": "2026-10-21T17:08:10.238954+00:00"
   }
 ]

@@ -132,5 +132,95 @@
     "type": "alert",
     "iconName": "Sparkles",
     "createdAt": "2026-10-19T12:16:05.585104+00:00"
+  },
+  {
+    "_id": "bc2803e8-1dea-47fd-be13-482783a03f20",
+    "userId": "2e65e6d9-d2ed-47e3-b387-b27ae335a6d9",
+    "title": "Completed HashMap Internal Mechanics Quiz",
+    "subtitle": "Score: 40% (+0% knowledge change)",
+    "timestamp": "Just now",
+    "type": "quiz",
+    "iconName": "CheckCircle2",
+    "createdAt": "2026-10-21T16:58:54.157682+00:00"
+  },
+  {
+    "_id": "5b769fa8-239f-442d-b10a-c358b4789132",
+    "userId": "2e65e6d9-d2ed-47e3-b387-b27ae335a6d9",
+    "title": "Completed ArrayList & Dynamic Resizing Quiz",
+    "subtitle": "Score: 100% (+51% knowledge change)",
+    "timestamp": "Just now",
+    "type": "quiz",
+    "iconName": "CheckCircle2",
+    "createdAt": "2026-10-21T17:57:31.824119+00:00"
+  },
+  {
+    "_id": "bd81de41-7ec9-4008-9533-fbda596d85b3",
+    "userId": "2e65e6d9-d2ed-47e3-b387-b27ae335a6d9",
+    "title": "Completed ArrayList & Dynamic Resizing Quiz",
+    "subtitle": "Score: 0% (+0% knowledge change)",
+    "timestamp": "Just now",
+    "type": "quiz",
+    "iconName": "CheckCircle2",
+    "createdAt": "2026-10-21T17:57:45.315919+00:00"
+  },
+  {
+    "_id": "c8c7fb81-c8b7-4f77-bff2-f72ca5915b1f",
+    "userId": "2e65e6d9-d2ed-47e3-b387-b27ae335a6d9",
+    "title": "Completed ArrayList & Dynamic Resizing Quiz",
+    "subtitle": "Score: 100% (+28% knowledge change)",
+    "timestamp": "Just now",
+    "type": "quiz",
+    "iconName": "CheckCircle2",
+    "createdAt": "2026-10-21T17:57:57.233539+00:00"
+  },
+  {
+    "_id": "077e56d5-7602-4ce5-8d75-7ffdcadc3bac",
+    "userId": "2e65e6d9-d2ed-47e3-b387-b27ae335a6d9",
+    "title": "Completed HashMap Internal Mechanics Quiz",
+    "subtitle": "Score: 40% (+0% knowledge change)",
+    "timestamp": "Just now",
+    "type": "quiz",
+    "iconName": "CheckCircle2",
+    "createdAt": "2026-10-22T03:16:58.076427+00:00"
+  },
+  {
+    "_id": "ed356d14-0b69-4aa5-a7de-714e9f1a6eff",
+    "userId": "2e65e6d9-d2ed-47e3-b387-b27ae335a6d9",
+    "title": "Completed HashMap Internal Mechanics Quiz",
+    "subtitle": "Score: 40% (+0% knowledge change)",
+    "timestamp": "Just now",
+    "type": "quiz",
+    "iconName": "CheckCircle2",
+    "createdAt": "2026-10-22T06:36:20.377012+00:00"
+  },
+  {
+    "_id": "b231a55b-69be-44f9-b8e3-630276ec1e1b",
+    "userId": "2e65e6d9-d2ed-47e3-b387-b27ae335a6d9",
+    "title": "Completed SQL JOIN Operations Quiz",
+    "subtitle": "Score: 100% (+51% knowledge change)",
+    "timestamp": "Just now",
+    "type": "quiz",
+    "iconName": "CheckCircle2",
+    "createdAt": "2026-10-23T20:04:05.957672+00:00"
+  },
+  {
+    "_id": "36ea3da0-fa55-4e7a-b49c-b24d6731d008",
+    "userId": "2e65e6d9-d2ed-47e3-b387-b27ae335a6d9",
+    "title": "Completed Revision: ArrayList & Dynamic Resizing",
+    "subtitle": "Spent 10 mins revising concepts",
+    "timestamp": "Just now",
+    "type": "revision",
+    "iconName": "BookOpen",
+    "createdAt": "2026-10-23T20:06:08.701277+00:00"
+  },
+  {
+    "_id": "cb975ad0-3758-46d4-887b-e0bf41411d3f",
+    "userId": "2e65e6d9-d2ed-47e3-b387-b27ae335a6d9",
+    "title": "Completed Revision: ArrayList & Dynamic Resizing",
+    "subtitle": "Spent 10 mins revising concepts",
+    "timestamp": "Just now",
+    "type": "revision",
+    "iconName": "BookOpen",
+    "createdAt": "2026-10-23T20:06:11.640927+00:00"
   }
 ]

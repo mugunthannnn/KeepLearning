@@ -94,7 +94,7 @@ export const Sidebar = ({ isOpen, onClose }) => {
       >
         <div className="h-16 px-6 flex items-center justify-between border-b border-slate-800">
           <NavLink
-            to="/dashboard"
+            to="/Landing"
             className="flex items-center gap-2.5 group"
           >
             <div className="w-8 h-8 rounded-lg bg-teal-500 text-[#0B1F33] flex items-center justify-center font-black text-lg shadow-sm group-hover:bg-teal-400 transition-colors">
